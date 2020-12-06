@@ -1,5 +1,10 @@
 {
     "require": {
         "linecorp/line-bot-sdk": "^6.0"
-    }
+    },
+
+    "config": {
+ "bin-dir": "vendor/bin",
+ "vendor-dir": "fuel/vendor"
+ }
 }
