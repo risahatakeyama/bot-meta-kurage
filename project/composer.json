@@ -6,5 +6,8 @@
     "config": {
  "bin-dir": "vendor/bin",
  "vendor-dir": "fuel/vendor"
- }
+ },
+"require-dev": {
+    "heroku/heroku-buildpack-php" : "develop"
+}
 }
