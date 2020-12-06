@@ -15,7 +15,7 @@ $signature = $_SERVER['HTTP_' . \LINE\LINEBot\Constant\HTTPHeader::LINE_SIGNATUR
 $events=$bot->parseEventRequest(file_get_contents('php://input'),$signature);
 
 foreach($events as $event){
-	$bot->replayText($event->getReplayToken(),'TextMessage');
+	$bot->replyText($event->getReplyToken(),'TextMessage');
 }
 
 ?>
