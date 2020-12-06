@@ -8,6 +8,6 @@
  "vendor-dir": "fuel/vendor"
  },
 "require-dev": {
-    "heroku/heroku-buildpack-php" : "develop"
+    "heroku/heroku-buildpack-php" : "dev-master"
 }
 }
