@@ -1,6 +1,6 @@
 <?php
 
-require_once './vender/autoload.php';
+require_once __DIR__ . 'projcet/vender/autoload.php';
 
 $httpClient=new \LINE\LINEBot\HTTPClient\CurlHTTPClient(getenv('CHANNEL_ACCESS_TOKEN'));
 
