@@ -15,7 +15,7 @@ $events=$bot->parseEventRequest(file_get_contents('php://input'),$signature);
 foreach($events as $event){
 
 	//replyTextMessage($bot,$event->getReplyToken(),'TextMessage');
-	replyImageMessage($bot,$event->getReplyToken(),'https://' .$_SERVER['HTTP_HOST'] .'/imags/original.jpg','https://' . $SERVER['HTTP_HOST'] .'/imags/preview.jpg');
+	replyImageMessage($bot,$event->getReplyToken(),'https://' .$_SERVER['HTTP_HOST'] .'/imgs/original.jpg','https://' . $SERVER['HTTP_HOST'] .'/imgs/preview.jpg');
 }
 
 function replyTextMessage($bot,$replyToken,$text){
